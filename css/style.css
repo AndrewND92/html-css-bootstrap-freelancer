@@ -3,17 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-h2{
-  text-align: center;
+
 }
-#darkgreen [class*="col-md"] {
+#darkgreen [class*="col-"] {
   background-color: darkgreen;
   color: white;
 }
-  [class*="col-md"]{
+  [class*="col-"]{
    /* regole debug */
    height: 100px;
    background-color: wheat;
-   border: 1px solid black;
+   border: 1px solid black
 
  }
