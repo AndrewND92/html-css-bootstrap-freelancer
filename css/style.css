@@ -10,13 +10,14 @@ main{
 }
 
 section{
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 img{
   max-width: 100%;
   height: auto;
   margin: 20px 0;
+  border-radius: 10px;
 }
 
   [class*="col-"]{
@@ -32,10 +33,54 @@ img{
  .row_nav{
    background-color: #2b4947;
  }
-  .row a h3{
+  .row a h4{
    color: white;
+   line-height: 50px;
  }
+ .row a h3{
+  color: white;
+}
  .row_jumbo{
    background-color:#1db59a;
    color: white;
+ }
+ .row_jumbo h4{
+   padding:20px 0;
+ }
+ .row_about{
+   background-color:#1db59a;
+   color: white;
+   font-size: 18px;
+ }
+ .download_style{
+   padding: 5px;
+   border: 1px solid white;
+   border-radius: 5px;
+ }
+ .margin_bottom{
+   margin:20px 0;
+ }
+ .row_footer{
+   background-color: #355663;
+   color: white;
+   /* height: 100px; */
+   }
+  .row_footer h5{
+     line-height: 20px;
+  }
+  .row_footer span{
+    padding: 10px;
+  }
+
+ .row_bottom{
+   height: 100px;
+   background-color:#263027;
+   color: white;
+ }
+ .row_bottom span{
+   line-height: 100px;
+ }
+ .button_style{
+   background-color: #1db59a;
+   border: none;
  }
