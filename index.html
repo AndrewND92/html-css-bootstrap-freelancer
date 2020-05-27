@@ -2,9 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-    <!-- Latest compiled and minified JavaScript -->
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -13,44 +11,45 @@
   <body>
     <!-- contenitore header -->
     <header>
-      <div class="container">
-        <div class="row">
+      <div class="container-fluid">
+        <div class="row row_nav">
           <!-- colonna del logo -->
-          <div class=" col-xs-4 col-sm-6 col-md-6 col-lg-6">
-            Start Bootstrap
+          <div class="text-center col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <a href="#"> <h3>Start Bootstrap</h3> </a>
           </div>
           <!-- colonna dei link -->
-          <div class=" col-xs-8 col-sm-6 col-md-6 col-lg-6 ">
+          <div class="text-center col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
             <div class="row">
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                Portfolio
+              <div class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="#"> <h3>Portfolio</h3> </a>
               </div>
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                About
+              <div class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="#"> <h3>About</h3> </a>
               </div>
-              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                Contact
+              <div class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="#"> <h3>Contact</h3> </a>
               </div>
             </div>
           </div>
         </div>
       </div>
       <!-- immagine e scritta centrale header-->
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 co-lg-12">
-            <img src="img/persona.png" alt="">
+      <div class="container-fluid">
+        <div class="row row_jumbo">
+          <div class="text-center col-xs-12 col-sm-12 col-md-12 co-lg-12">
+            <img id="jumbotron" src="img/persona.png" alt="">
+            <h1>START BOOTSTRAP</h1>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 co-lg-12">
-            START  BOOTSTRAP
+          <div class="text-center col-xs-12 col-sm-12 col-md-12 co-lg-12">
+            <h2></h2>
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-2 col-md-offset-3 co-lg-2">
+          <div class="text-center col-xs-4 col-sm-4 col-md-2 col-md-offset-3 co-lg-2">
             <h5>GRAPHIC ARTIST</h5>
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-2 co-lg-2">
+          <div class="text-center col-xs-4 col-sm-4 col-md-2 co-lg-2">
             <h5>WEB DESIGNER</h5>
           </div>
-          <div class="col-xs-4 col-sm-4 col-md-2 co-lg-2">
+          <div class="text-center col-xs-4 col-sm-4 col-md-2 co-lg-2">
             <h5>ILLUSTRATOR</h5>
           </div>
         </div>
@@ -63,10 +62,10 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h3>PORTFOLIO</h3>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
               riga con stella
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -92,157 +91,70 @@
       </section>
 
 
-    <!-- sezione dell'about -->
+      <!-- sezione dell'about -->
       <section>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
               ABOUT
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
               riga e stella
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2 col-lg-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="text-center col-xs-12 col-sm-6 col-md-4 col-md-offset-2 col-lg-4">
+              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="text-center col-xs-12 col-sm-6 col-md-4 col-lg-4">
+              <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <a href="#">Download</a>
             </div>
           </div>
         </div>
       </section>
       <!-- sezione contact me (form) -->
-      <div class="container">
-        <div class="col-xs-12">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input type="mail" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Phone Number">
-            </div>
-            <div class="form-group">
-              <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-          </form>
-
-
-
-
-
-
-
-
-
+      <section>
+        <div class="container">
+          <div class="col-xs-12">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="mail" class="form-control" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="form-group">
+                <textarea name="name" class="form-control" rows="8" cols="80" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- PARTE DEL FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h5>GRAPHIC ARTIST</h5>
+            <span>2215 John Daniel Drive Clark, MO 54243</span>
+          </div>
+          <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h5>GRAPHIC ARTIST</h5>
+            <span></span>
+          </div>
+          <div class="text-center col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <h5>GRAPHIC ARTIST</h5>
+            <span>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </body>
 </html>
-
-          <!-- <div class="col-xs-12 col-sm-12 col-md-12 co-lg-12">
-          Star Bootstrap
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-12 co-lg-12">
-        <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2 col-md-offset-3" >
-        graphic artist
-      </div>
-      <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-      web designer
-    </div>
-    <div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
-    illustrator
-  </div>
-</div>
-</div> -->
-        <!-- parte centrale con cards -->
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 co-lg-12">
-              <h3>portfolio</h3>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 co-lg-12">
-              riga e stellina
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 co-lg-4">
-
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 co-lg-4">
-
-            </div>
-            <div class=" col-xs-12col-sm-4 col-md-4 co-lg-4">
-
-            </div>
-            <div class="col-sm-4 col-md-4 co-lg-4">
-
-            </div>
-            <div class="col-sm-4 col-md-4-co-lg-4">
-
-            </div>
-            <div class="col-sm-4 col-md-4 co-lg-4">
-
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 co-lg-12">
-              about
-            </div>
-            <div class="col-sm-12 col-md-12 co-lg-12">
-              riga e stellina
-            </div>
-            <div class="col-sm-3 col-md-3 co-lg-3 col-sm-offset-3 col-md-offset-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-            <div class="col-sm-3 col-md-3 co-lg-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </div>
-            <div class="col-sm-12 col-md-12 co-lg-12">
-              dowload link
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 co-lg-12">
-              contact me
-            </div>
-            <div class="col-sm-12 col-md-12 co-lg-12">
-              riga con stellina
-            </div>
-            <div class="col-sm-6 col-md-6 co-lg-6 col-md-offset-3">
-              <div class="row">
-                <div class="col-sm-12 col-md-12 co-lg-12">
-                  name
-                </div>
-                <div class="col-sm-12 col-md-12 co-lg-12">
-                  email addres
-                </div>
-                <div class="col-sm-12 col-md-12 co-lg-12">
-                  phone number
-                </div>
-                <div class="col-sm-12 col-md-12 co-lg-12">
-                  message
-                </div>
-                <div class="col-sm-12 col-md-12 co-lg-12">
-                  send
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12 col-md-12 co-lg-12">
-
-            </div>
-          </div>
-        </div> -->
